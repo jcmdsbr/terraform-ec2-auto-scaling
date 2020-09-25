@@ -20,3 +20,8 @@ variable "cidbr_block" {
   type    = string
   default = "192.168.0.0/16"
 }
+
+variable "aws_private_a_cidr_block" {
+  type    = string
+  default = "192.168.6.0/23"
+}
