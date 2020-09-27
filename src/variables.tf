@@ -25,3 +25,13 @@ variable "aws_private_a_cidr_block" {
   type    = string
   default = "192.168.6.0/23"
 }
+
+variable "aws_ami" {
+  type    = string
+  default = "ami-00514a528eadbc95b"
+}
+
+variable "aws_ec2_instance_type" {
+  type    = string
+  default = "t2.micro"
+}
