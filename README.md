@@ -1,4 +1,19 @@
-# AWS High Availability & Fault Tolerance Architecture
+# The Terraform EC2 :sunglasses:
+
+- Learning Terraform to create a scalable app infrastructure
+
+## Give a Star! :star:
+
+If you liked the project, please give a star ;)
+
+## You need some of the fallowing tools :exclamation:
+
+-  Terraform
+-  AWS Account
+
+## Description :books:
+
+### AWS High Availability & Fault Tolerance Architecture 🏗️
 
 - Amazon Web Services provides services and infrastructure to build reliable, fault-tolerant, and highly available systems in the cloud.
 
@@ -8,7 +23,7 @@
 
 - Services that provide basic infrastructure, such as EC2 and EBS, provide specific features, such as availability zones, elastic IP addresses, and snapshots, that a fault-tolerant and highly available system must take advantage of and use correctly.
 
-## Regions & Availability Zones
+### Regions & Availability Zones 🌐
 
 - Amazon Web Services are available in geographic Regions and with multiple Availability zones (AZs) within a region, which provide easy access to redundant deployment locations.
 AZs are distinct geographical locations that are engineered to be insulated from failures in other AZs.
@@ -19,7 +34,7 @@ AZs provide inexpensive, low latency network connectivity to other Availability 
 - By placing EC2 instances in multiple AZs, an application can be protected from failure at a single data center
 It is important to run independent application stacks in more than one AZ, either in the same region or in another region, so that if one zone fails, the application in the other zone can continue to run.
 
-## Amazon Machine Image – AMIs
+### Amazon Machine Image – AMIs 🔐
 
 - EC2 is a web service within Amazon Web Services that provides computing resources.
 
