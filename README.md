@@ -1,4 +1,4 @@
-# The Terraform EC2 :sunglasses:
+# The Terraform EC2 Project :sunglasses:
 
 - Learning Terraform to create a scalable app infrastructure
 
